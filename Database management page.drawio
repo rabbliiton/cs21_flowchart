@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T14:07:22.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="6qy4tENMkVhW7Xi9jP_2" version="24.3.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-04-30T14:10:58.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="_R54-KNpH0xpKysmotiy" version="24.3.1" type="github" pages="4">
   <diagram name="Database_input" id="tOD7As1vqEOn8QU1HWs3">
     <mxGraphModel dx="1636" dy="1579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -420,7 +420,7 @@
         <mxCell id="JolDk_JoSPjfdUrIJTSG-18" value="it will set the chat_id in cache&lt;div&gt;it will create a new chat history&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JolDk_JoSPjfdUrIJTSG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JolDk_JoSPjfdUrIJTSG-21" target="JolDk_JoSPjfdUrIJTSG-23">
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-24" value="chat id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JolDk_JoSPjfdUrIJTSG-21" target="JolDk_JoSPjfdUrIJTSG-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JolDk_JoSPjfdUrIJTSG-21" value="chat A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -447,7 +447,7 @@
         <mxCell id="JolDk_JoSPjfdUrIJTSG-28" value="it will return the chat history of this chat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JolDk_JoSPjfdUrIJTSG-30" value="chat name" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JolDk_JoSPjfdUrIJTSG-31" target="JolDk_JoSPjfdUrIJTSG-33">
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-30" value="chat text, &#39;user&#39;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JolDk_JoSPjfdUrIJTSG-31" target="JolDk_JoSPjfdUrIJTSG-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -463,6 +463,38 @@
         </mxCell>
         <mxCell id="JolDk_JoSPjfdUrIJTSG-34" value="it will save chat to the database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-37" value="Delete" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-38" value="chat id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JolDk_JoSPjfdUrIJTSG-39" target="JolDk_JoSPjfdUrIJTSG-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-39" value="delete" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JolDk_JoSPjfdUrIJTSG-41" target="JolDk_JoSPjfdUrIJTSG-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-41" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;delete_chat_history&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JolDk_JoSPjfdUrIJTSG-42" target="JolDk_JoSPjfdUrIJTSG-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-42" value="it will save chat to the database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JolDk_JoSPjfdUrIJTSG-43" target="JolDk_JoSPjfdUrIJTSG-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-43" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;initial_chat_page&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JolDk_JoSPjfdUrIJTSG-45" value="refresh the sidebar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
